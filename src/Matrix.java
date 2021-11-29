@@ -48,8 +48,6 @@ public class Matrix {
                         int matrix1[][] = new int[row1][col1];
                         int matrix2[][] = new int[row2][col2];
                         int add[][] = new int[row1][col1];
-                        int cal1[][] = new int[row1][col1];
-                        int cal2[][] = new int[row2][col2];
                         for(int i=0; i<row1; i++){
                             for(int j=0; j<col1; j++){
                                 System.out.print("Enter Matrix-1 ["+i+","+j+"] : ");
